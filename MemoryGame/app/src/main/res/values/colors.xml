@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLBG">#F0F0F0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBG">#0298DB</color>
+    <color name="colorBBG">#17A589</color>
+    <color name="btnSelected">#145A32</color>
+    <color name="colorFP">#0B0080</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="screenbackground">#0298db</color>
+    <color name="screenbackground1">#0380b7</color>
+    <color name="textcolor">#edebeb</color>
+    <color name="buttonbackground">#17A589</color>
+    <color name="categorybackground">#f9a665</color>
+    <color name="dropdownbackground">#c55746</color>
+    <color name="gameimagebackground">#945146</color>
+    <color name="colorLBG1">#3457371b</color>
+    <color name="colorLBG2">#8857371b</color>
+    <color name="labelcolor">#433535</color>
+    <color name="rules">#6E2C00</color>
+
+</resources>

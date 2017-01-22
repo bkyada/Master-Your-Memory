@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_layout">
+
+        <Button
+            android:id="@+id/btn_easy"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="@string/easy2"
+            android:background="@drawable/round_dialog_button"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_medium"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="@string/medium2"
+            android:background="@drawable/round_dialog_button"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_hard"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hard2"
+            android:background="@drawable/round_dialog_button"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
