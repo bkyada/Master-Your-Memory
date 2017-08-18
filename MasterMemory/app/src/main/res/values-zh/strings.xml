@@ -1,0 +1,141 @@
+<resources>
+    <string name="txt_prof_name_label">名稱 : </string>
+    <string name="txt_prof_newname_label">新名稱 : </string>
+    <string name="txt_prof_email_label">電子郵件 : </string>
+    <string name="txt_prof_newemail_label">新郵件 : </string>
+    <string name="txt_prof_password_label">密碼 : </string>
+    <string name="txt_prof_newpassword_label">新通行證 : </string>
+    <string name="editproflabel">編輯個人資料</string>
+    <string name="myproflabel">我的簡歷</string>
+
+    <string name="line">------------------------------------------</string>
+    <string name="app_name">记忆</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="FBlogin">FACEBOOK登入</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="create_new_account">建立新帐户</string>
+    <string name="TOP_SCORES">最高分</string>
+    <string name="top_scores">最高分</string>
+    <string name="how_to_play">怎么玩？</string>
+    <string name="or">------------------要么 ------------------</string>
+    <string name="email">电子邮件</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="register">寄存器</string>
+    <string name="back">背部</string>
+     <string name="game_rules"><h1><b>规则</b></h1>\n
+        1. 卡片以网格脸奠定了下来.\n
+        2.从网格中选择第一张牌.\n
+        3.从网格中选择第二张牌.\n
+        4. 如果卡匹配，然后它会从电网中消失.\n
+        5. 如果卡不匹配，然后将它们回来了.\n
+        6.游戏结束时，所有的卡已超过匹配.\n\n
+        <b>提示更多的得分: </b>记得什么是卡和它在哪里.\n\n
+        <b>点: </b>10对于点每场比赛剩余时间加分.\n
+        </string>
+    <string name="send_password">发送密码</string>
+    <string name="easy">简单</string>
+    <string name="normal">正常</string>
+    <string name="hard">硬</string>
+
+    <string name="action_settings">设置</string>
+    <string name="country_prompt1">分类</string>
+
+    <string-array name="country_arrays1">
+        <item>选择一个类别</item>
+        <item>食品</item>
+        <item>徽标</item>
+        <item>动物</item>
+    </string-array>
+    <string name="country_prompt">水平</string>
+
+    <string-array name="country_arrays">
+        <item>选择一个级别</item>
+        <item>简单</item>
+        <item>中间</item>
+        <item>硬</item>
+    </string-array>
+    <string name="text_with_paragraphs">
+      <![CDATA[
+      Congratulation!!<br/>
+      User Name<br/>
+     Your Score<br/><br/>
+    <b>Level:Easy</b><br/>
+    <b>Time:</b>3.05 min<br/>
+    <b>Bonus Points:</b>10<br/>
+    <br/><br/><b>Score:</b>95<br/>
+     ]]>
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_sound">Sound</string>
+    <string name="nav_language">Language Setting</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="action_logout">登出</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="medium">中</string>
+    <string name="fb_app_id">177866542617462</string>
+
+
+    <string name="activity_title_about_us">關於我們</string>
+    <string name="activity_title_privacy_policy">隱私政策</string>
+    <string name="action_clear_all">全部清除</string>
+
+    <string name="congratulations">恭喜！</string>
+    <string name="your_score">你的分數</string>
+    <string name="home">家</string>
+    <string name="level">水平 :</string>
+    <string name="easy1">簡單</string>
+    <string name="time">時間 :</string>
+    <string name="tries">嘗試 :</string>
+    <string name="score">得分了 :</string>
+    <string name="new_game">新遊戲</string>
+    <string name="try_again">再試一次</string>
+    <string name="video">視頻</string>
+    <string name="rules">規則</string>
+    <string name="hint">暗示</string>
+    <string name="animals">動物</string>
+    <string name="birds">鳥類</string>
+    <string name="food">餐飲</string>
+    <string name="cartoon">動畫片</string>
+    <string name="logos">標誌</string>
+    <string name="christmas">聖誕</string>
+    <string name="easy2">簡單</string>
+    <string name="medium2">中</string>
+    <string name="hard2">硬</string>
+    <string name="scores">分數</string>
+    <string name="easy3">簡單</string>
+    <string name="medium3">中</string>
+    <string name="hard3">硬</string>
+    <string name="music">音樂</string>
+    <string name="language">語言</string>
+    <string name="edit_profile">編輯個人資料</string>
+    <string name="logout">登出</string>
+    <string name="type">類型 :</string>
+    <string name="next_level">下一個 水平</string>
+
+    <string name="gameover">益智超时 - 游戏结束！</string>
+    <string name="gameoversubtitle">下一次更好的运气..</string>
+</resources>

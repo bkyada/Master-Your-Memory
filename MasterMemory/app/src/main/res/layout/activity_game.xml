@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mym.bkyada.mastermemory.Game" >
+
+    <LinearLayout
+        android:id="@+id/layout_timescore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonbackground"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/easy"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/level"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/level_by_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:layout_marginRight="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:gravity="right"
+                    android:layout_marginRight="2dp"/>
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1:00"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:gravity="left"
+                    android:layout_marginLeft="2dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/progressbar"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tries"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+                <TextView
+                    android:id="@+id/tries"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:layout_marginRight="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/score"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/layout_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/layout_timescore"
+        android:layout_above="@+id/layout1">
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/new_game"
+            android:textColor="@color/textcolor"
+            android:background="@color/buttonbackground"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:onClick="startNewGame"/>
+
+        <Button
+            android:id="@+id/btn_tryagain"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/try_again"
+            android:textColor="@color/textcolor"
+            android:background="@color/buttonbackground"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:onClick="tryAgain"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

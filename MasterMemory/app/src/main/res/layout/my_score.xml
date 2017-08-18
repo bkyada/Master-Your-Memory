@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mym.bkyada.mastermemory.MyScore"
+    android:background="@drawable/bg_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/scores"
+        android:textColor="@color/buttonbackground"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:allowUndo="true"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/easy3"
+            android:textColor="@color/buttonbackground"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:allowUndo="true"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/easyScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium3"
+            android:textColor="@color/buttonbackground"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:allowUndo="true"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/mediumScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hard3"
+            android:textColor="@color/buttonbackground"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:allowUndo="true"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/hardScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/round_button"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:layout_gravity="center"
+        android:onClick="back"/>
+
+</LinearLayout>
